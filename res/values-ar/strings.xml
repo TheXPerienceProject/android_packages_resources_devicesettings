@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017-2022 The LineageOS Project
+                   2017-2026 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -76,6 +76,8 @@
     <string name="proximity_wake_enable_title">ايقاظ تقريبي</string>
     <string name="proximity_wake_enable_summary">ايقاظ الجهاز عند التلويح باليد</string>
     <string name="actions_title">الإجراءات</string>
+    <string name="device_gestures_panel_summary">الإيماءات الخاصة بالجهاز</string>
+    <string name="moto_gestures_panel_title">إيماءات موتو</string>
     <string name="camera_gesture_title">التواء-مزدوج</string>
     <string name="camera_gesture_summary">فتح الكاميرا عند استخدام إيماءة الالتواء المزدوج</string>
     <string name="chop_chop_gesture_title">تشوب تشوب</string>

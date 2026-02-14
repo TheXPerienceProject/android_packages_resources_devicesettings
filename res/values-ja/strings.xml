@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017-2022 The LineageOS Project
+                   2017-2026 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -101,6 +101,7 @@
     <string name="feedback_intensity_high">強い</string>
     <string name="dialog_ok">OK</string>
     <string name="disabled">無効</string>
+    <string name="none">なし</string>
     <string name="doze_settings_help_title">ヘルプ</string>
     <string name="doze_settings_help_text">これらの機能は、Doze通知点滅表示を起動するためにセンサーイベントを使用します。電池の使用量を削減するために、端末が通知を受信した時にのみ選択したセンサーが有効になります。画面を消灯した直後から選択したセンサーを有効にするオプションもありますが、電池の使用量が多くなります。</string>
     <string name="button_panel_title">追加のボタン</string>
@@ -123,4 +124,58 @@
     <string name="camera_focus_fix_summary">カメラのフォーカスに問題がある場合は有効にしてください</string>
     <string name="wake_on_gesture_title">ジェスチャーでスリープを解除する</string>
     <string name="wake_on_gesture_summary">ジェスチャー動作によって通知を点滅表示させる代わりに端末を復帰させます</string>
+    <string name="stylus_panel_title">スタイラス</string>
+    <string name="stylus_panel_summary">スタイラスの動作を制御します</string>
+    <string name="stylus_removed_category_title">スタイラスの取り出し</string>
+    <string name="stylus_inserted_category_title">スタイラスを挿入</string>
+    <string name="stylus_screen_on_when_removed_title">画面を点灯</string>
+    <string name="stylus_screen_on_when_removed_summary">スタイラスを取り出したときに画面を点灯します</string>
+    <string name="stylus_screen_off_when_inserted_title">画面を消灯</string>
+    <string name="stylus_screen_off_when_inserted_summary">スタイラスの挿入時に画面を消灯します</string>
+    <string name="stylus_vibrate_title">バイブ</string>
+    <string name="stylus_vibrate_when_removed_summary">スタイラスを取り出したときに振動させます</string>
+    <string name="stylus_vibrate_when_inserted_summary">スタイラスを挿入したときに振動させます</string>
+    <string name="stylus_launch_app_title">取り出し時にアプリを起動</string>
+    <string name="popup_title">フロントカメラの設定</string>
+    <string name="popup_calibration_title">補正</string>
+    <string name="popup_calibration_summary">ポップアップカメラモーターを補正します</string>
+    <string name="popup_calibration_warning_title">モーターの補正</string>
+    <string name="popup_calibration_warning_text">不必要に補正を繰り返すと取り返しの付かない損傷を引き起こす可能性があります。 適切に動かない場合や位置が間違っている場合にのみ補正することをおすすめします!</string>
+    <string name="popup_camera_tip">警告</string>
+    <string name="popup_camera_takeback_failed_calibrate">フロントカメラを閉じられませんでした。モーターの補正を試してください。</string>
+    <string name="popup_camera_popup_failed_calibrate">フロントカメラを開けませんでした。モーターの補正を試してください。</string>
+    <string name="popup_camera_calibrate_running">補正中はフロントカメラを使用できません。</string>
+    <string name="popup_camera_calibrate_now">補正</string>
+    <string name="popup_camera_calibrate_failed">補正できませんでした</string>
+    <string name="popup_camera_calibrate_success">正常に補正しました。フロントカメラを開けられます。</string>
+    <string name="popup_led_title">カメラのLED</string>
+    <string name="popup_led_summary">フロントカメラを出し入れしたときに LED ライトを点灯します</string>
+    <string name="popup_sound_title">サウンド効果</string>
+    <string name="popup_sound_muqin">木琴</string>
+    <string name="popup_sound_yingyan">コンドル</string>
+    <string name="popup_sound_mofa">魔法</string>
+    <string name="popup_sound_jijia">メカ</string>
+    <string name="popup_sound_chilun">歯車</string>
+    <string name="popup_sound_cangmen">キャビンドア</string>
+    <string name="doze_brightness_title">常時表示の明るさ</string>
+    <string name="doze_brightness_summary"><xliff:g id="mode" example="Low brightness">%s</xliff:g> モードが有効です</string>
+    <string name="doze_brightness_low">低輝度</string>
+    <string name="doze_brightness_high">高輝度</string>
+    <string name="doze_brightness_adaptive">明るさの自動調節</string>
+    <string name="alert_slider_category_title">アラートスライダー</string>
+    <string name="alert_slider_selection_dialog_title">動作</string>
+    <string name="alert_slider_top_position">上部</string>
+    <string name="alert_slider_middle_position">中央</string>
+    <string name="alert_slider_bottom_position">下部</string>
+    <string name="alert_slider_mode_none">なし</string>
+    <string name="alert_slider_mode_silent">サイレント</string>
+    <string name="alert_slider_mode_normal">標準</string>
+    <string name="alert_slider_mode_vibration">バイブ</string>
+    <string name="alert_slider_mode_dnd_priority_only">重要な通知のみ</string>
+    <string name="alert_slider_mode_dnd_total_silence">完全サイレント</string>
+    <string name="alert_slider_mode_dnd_alarms_only">アラームのみ</string>
+    <string name="alert_slider_mute_media_title">メディアをミュート</string>
+    <string name="alert_slider_mute_media_summary">サイレントモードに切り替えたときにメディア音量をミュートします</string>
+    <string name="alert_slider_notification_dialog_title">スライダーダイアログを表示</string>
+    <string name="alert_slider_notification_dialog_summary">アラートスライダーの位置を変更したときにダイアログを表示します</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017-2022 The LineageOS Project
+                   2017-2026 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@
     <string name="touchscreen_s_gesture_title">Viestit</string>
     <string name="touchscreen_s_gesture_summary">Piirrä \"S\" avataksesi viestisovelluksen</string>
     <string name="touchscreen_v_gesture_title">Puhelin</string>
-    <string name="touchscreen_v_gesture_summary">Piirrä \"V\" avataksesi puhelusovelluksen</string>
+    <string name="touchscreen_v_gesture_summary">Avaa puhelusovellus piirtämällä \"V\"</string>
     <string name="touchscreen_w_gesture_title">Selain</string>
     <string name="touchscreen_w_gesture_summary">Piirrä \"W\" avataksesi selaimen</string>
     <string name="touchscreen_z_gesture_title">Taskulamppu</string>
@@ -82,8 +82,8 @@
     <string name="chop_chop_gesture_summary">Avaa taskulamppu leikkauseleellä</string>
     <string name="hand_wave_silencer_title">Hiljennä heilauttamalla</string>
     <string name="hand_wave_silencer_summary">Hiljennä tulevat puhelut heilauttamalla kättä ruudun yli</string>
-    <string name="flip_to_mute_title">Älä häiritse-tila kääntäessä</string>
-    <string name="flip_to_mute_summary">Aseta puhelin näyttö alaspäin hiljentääksesi ilmoitukset ja puhelut</string>
+    <string name="flip_to_mute_title">Käännä puhelin älä häiritse -tilaa varten</string>
+    <string name="flip_to_mute_summary">Mykistä ilmoitukset ja puhelut kääntämällä näyttö alaspäin.</string>
     <string name="dnd_access">Anna CMActions:lle oikeudet Älä häiritse-tilaan käyttääksesi tätä toimintoa.</string>
     <string name="lift_to_silence_title">Nosta hiljentääksesi</string>
     <string name="lift_to_silence_summary">Nosta puhelin hiljentääksesi saapuvan puhelun. Se toimii vain kun puhelin on tasaisella nostettaessa</string>
@@ -105,9 +105,9 @@
     <string name="button_swap_summary">Vaihda Takaisin- ja Viimeisimmät-näppäinten paikkaa</string>
     <string name="fingerprint_title">Sormenjälki</string>
     <string name="fingerprint_as_home_title">Sormenjälki Koti-näppäimenä</string>
-    <string name="fingerprint_as_home_summary">Käytä sormenjäljenlukijaa Koti-näppäimenä</string>
+    <string name="fingerprint_as_home_summary">Käytä sormenjälkitunnistinta Koti-näppäimenä</string>
     <string name="fingerprint_wakeup_title">Herätys sormenjäljellä</string>
-    <string name="fingerprint_wakeup_summary">Salli sormenjäljenlukijan herättää laite näytön ollessa pois päältä</string>
+    <string name="fingerprint_wakeup_summary">Salli sormenjälkitunnistimen herättää laite näytön ollessa pois päältä</string>
     <string name="fingerprint_pocketmode_title">Estä herätys vahingossa</string>
     <string name="fingerprint_pocketmode_summary">Tarkista läheisyysanturi estääksesi herättämisen vahingossa sormenjäljentunnistimen avulla</string>
     <string name="fingerprint_sleep_title">Lepotila sormenjäljellä</string>
@@ -120,4 +120,6 @@
     <string name="camera_focus_fix_summary">Ota tämä käyttöön, jos sinulla on ongelmia kameran tarkennuksen kanssa</string>
     <string name="wake_on_gesture_title">Herätä eleissä</string>
     <string name="wake_on_gesture_summary">Herätä laite ilmoitusten vilkuttamisen sijaan käytettäessä eleitä</string>
+    <string name="alert_slider_mute_media_title">Mykistä media</string>
+    <string name="alert_slider_mute_media_summary">Mykistä media kun vaihdetaan äänettömään tilaan.</string>
 </resources>

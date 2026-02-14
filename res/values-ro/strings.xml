@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017-2022 The LineageOS Project
+                   2017-2026 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -101,6 +101,7 @@
     <string name="feedback_intensity_high">Ridicată</string>
     <string name="dialog_ok">OK</string>
     <string name="disabled">Dezactivat</string>
+    <string name="none">Nimic</string>
     <string name="doze_settings_help_title">Ajutor</string>
     <string name="doze_settings_help_text">Aceste caracteristici utilizează evenimentele senzorilor pentru a lansa pulsul notificărilor doze. Senzorul ales este pornit numai când dispozitivul a primit o notificare, asta ajutând la reducerea utilizării bateriei. De asemenea, există o opțiune pentru a activa senzorul ales de îndată ce ecranul se stinge, asta cauzând o utilizare a bateriei mai mare.</string>
     <string name="button_panel_title">Butoane suplimentare</string>
@@ -123,4 +124,58 @@
     <string name="camera_focus_fix_summary">Activați în cazul în care aveți probleme la focalizare</string>
     <string name="wake_on_gesture_title">Trezire la gesturi</string>
     <string name="wake_on_gesture_summary">Trezește dispozitivul în loc să pulseze notificările în cazul gesturilor</string>
+    <string name="stylus_panel_title">Stilou</string>
+    <string name="stylus_panel_summary">Controlează comportament stilou</string>
+    <string name="stylus_removed_category_title">Stilou scos</string>
+    <string name="stylus_inserted_category_title">Stilou introdus</string>
+    <string name="stylus_screen_on_when_removed_title">Pornește ecranul</string>
+    <string name="stylus_screen_on_when_removed_summary">Porniți ecranul atunci când scoateți stiloul</string>
+    <string name="stylus_screen_off_when_inserted_title">Oprește ecranul</string>
+    <string name="stylus_screen_off_when_inserted_summary">Oprește ecranul când se introduce stiloul</string>
+    <string name="stylus_vibrate_title">Vibrație</string>
+    <string name="stylus_vibrate_when_removed_summary">Vibrează la scoaterea stiloului</string>
+    <string name="stylus_vibrate_when_inserted_summary">Vibrează la introducerea stiloului</string>
+    <string name="stylus_launch_app_title">Lansează o aplicație când este scos</string>
+    <string name="popup_title">Setări cameră frontală</string>
+    <string name="popup_calibration_title">Calibrare</string>
+    <string name="popup_calibration_summary">Calibrează motorul camerei popup</string>
+    <string name="popup_calibration_warning_title">Calibrare motor</string>
+    <string name="popup_calibration_warning_text">Utilizarea inutilă a calibrării poate provoca daune permanente. Se recomandă calibrarea motorului camerei popup numai în cazul în care acesta nu se mişcă corect sau este într-o poziţie incorectă!</string>
+    <string name="popup_camera_tip">Avertisment</string>
+    <string name="popup_camera_takeback_failed_calibrate">Nu s-a putut închide camera frontală. Încercați să calibrați motorul.</string>
+    <string name="popup_camera_popup_failed_calibrate">Nu s-a putut deschide camera frontală. Încercați să calibrați motorul.</string>
+    <string name="popup_camera_calibrate_running">Camera frontală nu poate fi utilizată în timpul calibrării.</string>
+    <string name="popup_camera_calibrate_now">Calibrează</string>
+    <string name="popup_camera_calibrate_failed">Nu s-a putut calibra</string>
+    <string name="popup_camera_calibrate_success">Calibrare cu succes. Puteți deschide camera frontală acum.</string>
+    <string name="popup_led_title">LED cameră</string>
+    <string name="popup_led_summary">Activează LED-ul în timp ce camera foto din față apare și se retrage</string>
+    <string name="popup_sound_title">Efecte sonore</string>
+    <string name="popup_sound_muqin">Xilofon</string>
+    <string name="popup_sound_yingyan">Condor</string>
+    <string name="popup_sound_mofa">Magie</string>
+    <string name="popup_sound_jijia">Mecha</string>
+    <string name="popup_sound_chilun">Roată dințată</string>
+    <string name="popup_sound_cangmen">Ușă cabină</string>
+    <string name="doze_brightness_title">Luminozitate mereu pornită</string>
+    <string name="doze_brightness_summary"><xliff:g id="mode" example="Low brightness">Modul %s</xliff:g> este activat</string>
+    <string name="doze_brightness_low">Luminozitate scăzută</string>
+    <string name="doze_brightness_high">Luminozitate ridicată</string>
+    <string name="doze_brightness_adaptive">Luminozitate adaptivă</string>
+    <string name="alert_slider_category_title">Alert slider</string>
+    <string name="alert_slider_selection_dialog_title">Acțiune</string>
+    <string name="alert_slider_top_position">Sus</string>
+    <string name="alert_slider_middle_position">Mijloc</string>
+    <string name="alert_slider_bottom_position">Jos</string>
+    <string name="alert_slider_mode_none">Nimic</string>
+    <string name="alert_slider_mode_silent">Silențios</string>
+    <string name="alert_slider_mode_normal">Normal</string>
+    <string name="alert_slider_mode_vibration">Vibrație</string>
+    <string name="alert_slider_mode_dnd_priority_only">Numai cu prioritate</string>
+    <string name="alert_slider_mode_dnd_total_silence">Niciun sunet</string>
+    <string name="alert_slider_mode_dnd_alarms_only">Numai alarme</string>
+    <string name="alert_slider_mute_media_title">Fără sunet media</string>
+    <string name="alert_slider_mute_media_summary">Fără sunet media când se schimbă la silențios</string>
+    <string name="alert_slider_notification_dialog_title">Afișare dialog glisor</string>
+    <string name="alert_slider_notification_dialog_summary">Afișează un dialog atunci când poziția glisorului de alertă se schimbă</string>
 </resources>
