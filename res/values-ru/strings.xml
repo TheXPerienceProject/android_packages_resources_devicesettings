@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017-2026 The LineageOS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+     SPDX-FileCopyrightText: 2013-2016 The CyanogenMod Project
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="device_settings_app_name">Дополнительные настройки</string>
@@ -136,7 +125,7 @@
     <string name="stylus_vibrate_when_removed_summary">Вибрировать при удалении стилуса</string>
     <string name="stylus_vibrate_when_inserted_summary">Вибрировать при подключении стилуса</string>
     <string name="stylus_launch_app_title">Запускать приложение при удалении</string>
-    <string name="popup_title">Настройки фроонтальной камеры</string>
+    <string name="popup_title">Настройки фронтальной камеры</string>
     <string name="popup_calibration_title">Калибровка</string>
     <string name="popup_calibration_summary">Калибровка двигателя выдвижной камеры</string>
     <string name="popup_calibration_warning_title">Калибровка двигателя</string>
@@ -174,8 +163,10 @@
     <string name="alert_slider_mode_dnd_priority_only">Только важные</string>
     <string name="alert_slider_mode_dnd_total_silence">Полная тишина</string>
     <string name="alert_slider_mode_dnd_alarms_only">Только будильник</string>
+    <string name="alert_slider_mode_torch_on">Фонарик включен</string>
+    <string name="alert_slider_mode_torch_off">Фонарик отключен</string>
     <string name="alert_slider_mute_media_title">Выключить звук медиа</string>
     <string name="alert_slider_mute_media_summary">Отключение звука мультимедиа при переключении на беззвучный режим</string>
-    <string name="alert_slider_notification_dialog_title">Показать диалог слайдера</string>
-    <string name="alert_slider_notification_dialog_summary">Отображать диалоговое окно при изменении положения слайдера оповещения</string>
+    <string name="alert_slider_notification_dialog_title">Показывать уведомление</string>
+    <string name="alert_slider_notification_dialog_summary">Показывать уведомление при изменении положения бокового переключателя</string>
 </resources>
